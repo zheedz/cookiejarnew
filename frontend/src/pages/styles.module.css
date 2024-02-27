@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    height: fit-content;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: black;
+}
+
+.container > form {
+    width: 200px;
+    height: fit-content;
+}
+
+.container > form title {
+    font-size: 25px;
+}
+
+.right_align {
+    text-align: right;
+}
+
+.flex_mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+}
+
+.arrow path {
+    fill: black;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+form.flex_col {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+form.flex_col > * {
+    margin-bottom: 10px;
+}
+
+form.flex_col label {
+    font-size: 10px;
+}
+
+form.flex_col input {
+    width: stretch;
+    height: 10px;
+
+    font-size: 10px;
+
+    border-bottom: 1px solid black;
+}
+
+.flex_col > * {
+    display: block;
+}
+
+.border_N {
+    border-top: 1px solid black;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex_row > title, .flex_row > div {
+    display: inline;
+
+    width: auto;
+    height: auto;
+}

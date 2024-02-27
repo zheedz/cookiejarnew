@@ -1,0 +1,24 @@
+* {
+    width: auto;
+    height: auto;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+    font: inherit;
+    line-height: 1;
+
+    list-style: none;
+    quotes: none;
+
+    vertical-align: baseline;
+    
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    width: 100%;
+}

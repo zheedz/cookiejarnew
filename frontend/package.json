@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Dynamic Website Template built by Nexxus Lab",
+  "main": "src/pages/index.tsx",
+  "files": [
+    "src",
+    "src/**/*.d.ts"
+  ],
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexxuslab/dynamic.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Nexxus Lab (team@nexxuslab.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexxuslab/dynamic/issues"
+  },
+  "homepage": "https://github.com/nexxuslab/dynamic#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.3"
+  }
+}
